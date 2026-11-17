@@ -1,0 +1,11 @@
+order_id,order_date,customer_name,product,quantity,unit_price,total_sales
+101,2026-01-01,Raj,Laptop,1.0,55000,55000.0
+102,2026-01-02,Priya,Mouse,2.0,500,1000.0
+103,2026-01-03,Amit,Keyboard,1.0,800,800.0
+104,2026-01-04,Neha,Monitor,1.0,12000,12000.0
+105,2026-01-05,Raj,Laptop,1.0,55000,55000.0
+106,2026-01-06,Priya,Mouse,3.0,500,1500.0
+108,2026-01-08,Neha,Laptop,1.0,55000,55000.0
+110,2026-01-10,Priya,Monitor,1.0,12000,12000.0
+111,2026-01-11,Amit,Keyboard,2.0,800,1600.0
+112,2026-01-12,Unknown,Mouse,1.0,500,500.0
