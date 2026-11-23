@@ -1,30 +1,20 @@
-
 import pandas as pd
 from pathlib import Path
 
-# Get project root directory
-BASE_DIR = Path(__file__).resolve().parents[1]
+def extract_data():
 
-# CSV file path
-file_path = BASE_DIR / "data" / "raw" / "sales.csv"
+    # Get project root directory
+    BASE_DIR = Path(__file__).resolve().parents[1]
 
-# Read CSV file
-df = pd.read_csv(file_path)
+    # CSV file path
+    file_path = BASE_DIR / "data" / "raw" / "sales.csv"
 
-# Display first 5 rows
-print("\n--- FIRST 5 ROWS ---")
-print(df.head())
+    # Read CSV file
+    df = pd.read_csv(file_path)
 
-# Display total rows and columns
-print("\n--- DATA SHAPE ---")
-print(df.shape)
+    print("\n--- FIRST 5 ROWS ---")
+    print(df.head())
 
-# Display column names
-print("\n--- COLUMN NAMES ---")
-print(df.columns)
+    print("\nData extracted successfully!")
 
-# Display data information
-print("\n--- DATA INFO ---")
-df.info()
-
-print("\nData extracted successfully!")
+    return df
